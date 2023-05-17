@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="favicon.ico"><title>ningbo</title><link href="static/css/app.f693e30a.css" rel="preload" as="style"><link href="static/js/app.6cd7a3cd.js" rel="preload" as="script"><link href="static/js/chunk-vendors.0d347b20.js" rel="preload" as="script"><link href="static/css/app.f693e30a.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but ningbo doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="static/js/chunk-vendors.0d347b20.js"></script><script src="static/js/app.6cd7a3cd.js"></script></body><style>#app {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* @media screen and (max-width: 1024px) {
+      html {
+        font-size: 42px !important;
+      }
+    }
+
+    @media screen and (min-width: 1025px) {
+      html {
+        font-size: 50px !important;
+      }
+    }
+    @media screen and (min-width: 1920px) {
+      html {
+        font-size: 80px !important;
+      }
+    } */</style><script>setFontSize()
+    window.onresize = function () {
+      setFontSize()
+    }
+    function setFontSize() {
+      let width = document.documentElement.getBoundingClientRect().width
+      let dpr = window.devicePixelRatio
+      if (width / dpr < 1366) {
+        width = 1366 * dpr
+      } else if (width / dpr > 2560) {
+        width = 2560 * dpr
+      }
+
+      var rem = width / 24
+      document.documentElement.style.fontSize = rem + 'px'
+    }</script></html>
